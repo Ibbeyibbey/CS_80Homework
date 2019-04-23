@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+  <head>
+  	<meta charset = "utf-8">
+	<title>Quiz 4-6</title>
+
+	<style type = "text/css">
+		em        { font-weight: bold;
+                color: #DDE935;}
+
+    h1        { font-family: tahoma, helvetica, sans-serif; }
+            
+
+    body      { background-color: #DA0AD3;
+                font-size: 20pt;
+                color: #DDE935;
+                margin-left: 50px;
+                text-align: left;  
+
+                background: -webkit-gradient(
+                linear, center top, center bottom,
+                color-stop(15%, white), color-stop(50%, #DA0AD3),
+                color-stop(75%, purple));
+                   
+                background: -moz-linear-gradient(
+                top center, white 15%, #DA0AD3 50%, purple 75%);
+
+                background: -linear-gradient(
+                to bottom, white 15%, #DA0AD3 50%, purple 75%);
+
+                }
+
+	</style>	
+  </head>
+
+    <body>
+
+    <p>
+    <img src= "https://itsjojosiwa.com/wp-content/uploads/2018/03/jojo-star-and-Peace.png" width = "500" height = "500" alt ="Picture of Jojo Siwa" align ="right"></p><br>
+
+      <h1> Isha Brown </h1>
+
+      <h2>Favorite Popstars:</h2>
+        <ol>
+          <li id = "fav1"> </li>
+          <li id = "fav2"> </li>
+        </ol>
+    </body>
+
+  <script type = "text/javascript">
+
+    document.getElementById("fav1").innerHTML = prompt("Which Boy band is your favorite?");
+    document.getElementById("fav2").innerHTML = prompt("Who is your favorite pop singer? ");
+  
+
+
+
+  </script>
+</html>
