@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html> 
+   <head>
+   	  <meta charset = "utf-8">
+   	  <title> Quiz 1-3 </title>
+
+    
+   	  <style type = "text/css">
+   	  	em       { background-color: #89cff0; }
+   	  	.background_image { position: absolute;
+   	  	 	                 top: 100px;
+   	  	 	                 left: 800px;
+   	  	 	                 bottom:100px;
+   	  	 	                 z-index: 3;}
+   	  	 	              
+
+   	  	                  { font-weight: bold; }
+   	  	h1                { font-family: arial, helvetica, sans serif; }
+
+   	  	.special          { color:white; 
+                            text-align:center;}
+   	  	p                 { font-size: 12pt;
+   	  	                    font-family: arial, sans serif; }
+
+   	  	.dropdown-content {
+                   display: none;
+                   position: relative;
+                   background-color: #FFFFFF;
+                   min-width: 160px;
+                   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                   z-index: 1;}
+        .dropdown-content a {
+                   color: black;
+                   padding: 8px 12px;
+                   text-decoration: none;
+                   display: block;}
+
+        .dropdown-content a:hover {background-color: #808080}
+        .dropdown:hover .dropdown-content {
+                   display: block;}
+
+        .dropdown:hover .dropbtn {
+                   background-color: #FFFFFF;}
+	                
+   	  </style>
+   </head>
+
+   <body style="background-color:#89cff0">
+   	<p> <img src= "http://www.simpsoncrazy.com/content/pictures/homer/homer-pythagoras.png" class = "background_image" alt = "Homer image"/></p>
+
+<div style="background-color: #ffd7e1; margin-left: 10px; margin-right: 10px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px;">
+      <h1 class = "special"> <strong> Homer Simpson </strong></h1>
+</div>      
+      <h2><strong> Education </strong></h2>
+      <ol>
+         <li> School of Hard Knocks </li>
+            <ul>
+              <li> Bachelor of Science in Everything </li>
+            </ul>
+
+  	     <li> Santa Monica College </li>
+  	        <ul><li> Associate of Science in Web Programmer </li></ul>  
+  	        <ul style ="list-style-type:square">
+  	        	<li>Specialized in the Black Widow</li> 
+  	        </ul>
+
+  	        <ul>    
+  	           <li> AA in Rock Music Appreciation </li>
+            </ul>
+
+  	           <li> University of California at Los Angeles </li>
+  	        <ul>
+  	          <li> Graduate Certificate in Television Watching </li>
+  	        </ul>
+      </ol>
+
+      <h2><strong> Wordly Experience </strong></h2>
+        <ul>
+          <li><strong> Springfiled Nuclear Power Plant </strong>- not sure what I'm supposed to do</li>
+	      <li> Springfield Donut Barn - master tasteur: I like the ones with the pink icing. </li>
+	      <li> Springfield Pork Rind Factopry - senior taster </li>
+	      <li> Duff Beer Brewery - taster trainee; supervisor--Jose Antonio Gonzalez
+        </ul>
+
+       <h2><strong> Other Skills </strong></h2>
+       <s>XHTML</s>HTML5 a<sub>i</sub> 100<sup>100</sup>
+
+       <p><strong> The following data will be posted to my server at homerswebsight.com </strong></p>
+
+<div style="background-color: #ffd7e1; margin-left: 10px; margin-right: 10px; padding-bottom: 12px; padding-left: 12px; padding-right: 12px; padding-top: 12px;">
+
+<form>
+Username: <input type= "text"> <br>
+<br>
+<textarea rows="4" cols="50">
+"I think therefore I drink." -Homerism #73
+
+Or, supply your own wisdom here, if you think you're so smart.
+
+</textarea> 
+
+<br>
+<br>
+<br>
+<br>
+
+
+How much do you like me? <span> <div class="dropdown">
+  <button class="dropbtn">Dropdown Menu</button>
+  <div class="dropdown-content">
+    <a href="not so much">not so much</a>
+    <a href="You're OK">You're OK</a>
+    <a href="a bushel and a peck">a bushel and a peck</a>
+  </div> </div></span>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<input type = "submit" value="Submit"><input type = "reset" value="Reset">
+
+
+</form>
+
+</style>
+
+
+<table>
+<tr>
+	<th>X</th><th>O</th><th>X<th>
+<tr>
+    <th>X</th><th>O</th><th>X<th>
+<tr>
+	<th>X</th><th>O</th><th>X<th>
+</table>
+
+<p> &copy;2012 Homer Simpson Kingdom & Universe, Inc.</p>
+<a href="#Top"><u>Top!</a></u>
+</body>
+
+</html>
