@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--This is an application for adding--> 
+
+  <html>
+    <head>
+    	<meta charset = "utf-8">
+    	<title> Exercise 6.16 </title>
+    	<script type = "text/javascript">
+    		<!--
+    		var firstNumber; //1st string entered by user
+    		var secondNumber; //2nd string entered by user
+    		var number1; //1st number to add
+    		var number2; //2nd number to add
+    		var sum; //sum of number1 and number2
+    		var product; //what comes from multiplying
+    		var quotient; //what comes from dividing
+            var difference; //what comes after subtracting
+
+    		//first entry from User
+    		firstNumber = window.prompt("Please enter a Number");
+
+    		//second entry from User
+    		secondNumber = window.prompt("Please enter another Number");
+
+    		//parse numbers from strings to integers
+    		number1 = parseInt(firstNumber);
+    		number2 = parseInt(secondNumber);
+
+    		sum = number1 + number2; //add the numbers
+            //display the results, concatenated format for all operations
+    		document.writeln("<h1> The sum is " + sum + "</h1>");
+
+    		difference = number1 - number2; //add the numbers
+    		document.writeln("<h1> The difference is " + difference + "</h1>");
+
+            product = number1 * number2; //multiply the numbers
+    		document.writeln("<h1> The product is " + product + "</h1>");
+
+            quotient = number1/number2; //divide the numbers
+    		document.writeln("<h1> The quotient is " + quotient + "</h1>");
+            //-->
+
+    	</script>
+    </head><body></body>
+  </html>
+
+ 
